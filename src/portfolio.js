@@ -50,8 +50,8 @@ const projects = [
     description:
       'Collections of validators for the Terraform Plugin Framework',
     stack: ['Golang', 'Terraform'],
-    sourceCode: 'https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers',
-    livePreview: 'https://frangipaneteam.github.io/terraform-plugin-framework-planmodifiers/',
+    sourceCode: 'https://github.com/FrangipaneTeam/terraform-plugin-framework-validators',
+    livePreview: 'https://frangipaneteam.github.io/terraform-plugin-framework-validators/',
   },
 
 ]
