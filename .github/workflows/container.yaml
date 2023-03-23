@@ -4,13 +4,24 @@ on:
     branches:
       - gh-pages
   pull_request:
-  
+
+env:
+  REGISTRY_USER: ${{ github.actor }}
+  REGISTRY_PASSWORD: ${{ github.token }}
+  IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}/frangipaneteam.github.io
+
 jobs:
   podman:
     name: podman
     runs-on: ubuntu-latest
     
     steps:
+      - name: Log in to ghcr.io
+        uses: redhat-actions/podman-login@v1
+        with:
+          username: ${{ env.REGISTRY_USER }}
+          password: ${{ env.REGISTRY_PASSWORD }}
+          registry: ${{ env.IMAGE_REGISTRY }}
       - name: Setup Podman
         run: |
           sudo apt update
