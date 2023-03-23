@@ -8,7 +8,7 @@ on:
 env:
   REGISTRY_USER: ${{ github.actor }}
   REGISTRY_PASSWORD: ${{ github.token }}
-  IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}/frangipaneteam.github.io
+  IMAGE_REGISTRY: ghcr.io/frangipaneteam/frangipaneteam.github.io
 
 jobs:
   podman:
@@ -25,7 +25,7 @@ jobs:
       - name: Setup Podman
         run: |
           sudo apt update
-          sudo apt-get -y install podman
+          sudo apt-get -y install podman qemu-user-static
       - name: Get source
         uses: actions/checkout@v3
       - name: Create container

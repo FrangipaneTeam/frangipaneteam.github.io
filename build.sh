@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if test -n "$REGISTRY_AUTH_FILE"; then
+  echo "Using default registry auth file : $REGISTRY_AUTH_FILE"
+fi
+
 local_image="localhost/frangiweb:latest"
 registry_image="ghcr.io/frangipaneteam/frangiweb:latest"
 
