@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://frangipaneteam.github.io/',
+  homepage: 'https://frangipane.io/',
   title: 'Frangipane Team.',
 }
 
