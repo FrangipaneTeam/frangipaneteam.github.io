@@ -43,7 +43,7 @@ const projects = [
       'Collections of plan modifiers for the Terraform Plugin Framework',
     stack: ['Golang', 'Terraform'],
     sourceCode: 'https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers',
-    livePreview: 'https://frangipaneteam.github.io/terraform-plugin-framework-planmodifiers/',
+    livePreview: 'https://github.frangipane.io/',
   },
   {
     name: 'terraform-provider-framework-validators',
@@ -51,9 +51,16 @@ const projects = [
       'Collections of validators for the Terraform Plugin Framework',
     stack: ['Golang', 'Terraform'],
     sourceCode: 'https://github.com/FrangipaneTeam/terraform-plugin-framework-validators',
-    livePreview: 'https://frangipaneteam.github.io/terraform-plugin-framework-validators/',
+    livePreview: 'https://github.frangipane.io/',
   },
-
+  {
+    name: '🚀 More projects',
+    description:
+      'Discover more projects on our GitHub repositories and our documentation website.',
+    stack: [],
+    sourceCode: 'https://github.com/FrangipaneTeam',
+    livePreview: 'https://github.frangipane.io/',
+  },
 ]
 
 export { header, about, projects }
