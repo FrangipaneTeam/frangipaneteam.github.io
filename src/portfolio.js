@@ -10,12 +10,13 @@ const about = {
     'Frangipane Team is a french team of Orange Business. We are working on lots of projects based on Golang language.',
   social: {
     github: 'https://github.com/FrangipaneTeam',
+    documentation: 'https://github.frangipane.io/',
   },
 }
 
 const projects = [
   {
-    name: 'terraform-provider-cloudavenue',
+    name: 'Terraform CloudAvenue',
     description:
       'A Terraform provider for Cloud Avenue. Cloud Avenue is a IaaS cloud provider based on Vmware technology.',
     stack: ['Golang', 'Terraform'],
@@ -23,7 +24,7 @@ const projects = [
     livePreview: 'https://cloud.orange-business.com/offres/infrastructure-iaas/cloud-avenue/',
   },
   {
-    name: 'provider-flexibleengine',
+    name: 'CrossPlane FlexibleEngine',
     description:
       'Crossplane provider that exposes XRM-conformant managed resources for the FlexibleEngine API. FlexibleEngine is a IaaS cloud provider based on OpenStack technology.',
     stack: ['Golang', 'CrossPlane'],
@@ -31,27 +32,35 @@ const projects = [
     livePreview: 'https://marketplace.upbound.io/providers/frangipaneteam/provider-flexibleengine',
   },
   {
-    name: 'bean',
+    name: 'Terraform SuperSchema',
     description:
-      'bean is a terminal app built to help to test Crossplane providers.',
+      'SuperSchema allows you to write the Terraform schema for resources and datasources in a single definition.',
+    stack: ['Golang', 'Terraform'],
+    sourceCode: 'https://github.com/FrangipaneTeam/terraform-plugin-framework-superschema',
+    livePreview: 'https://github.frangipane.io/terraform/superschema/why/',
+  },
+  {
+    name: 'Bean',
+    description:
+      'Bean is a terminal app built to help to test Crossplane providers.',
     stack: ['Golang', 'Crossplane', 'CLI'],
     sourceCode: 'https://github.com/FrangipaneTeam/bean',
   },
   {
-    name: 'terraform-provider-framework-planmodifiers',
+    name: 'Terraform PlanModifiers',
     description:
       'Collections of plan modifiers for the Terraform Plugin Framework',
     stack: ['Golang', 'Terraform'],
     sourceCode: 'https://github.com/FrangipaneTeam/terraform-plugin-framework-planmodifiers',
-    livePreview: 'https://github.frangipane.io/',
+    livePreview: 'https://github.frangipane.io/terraform/planmodifiers/getting-started/',
   },
   {
-    name: 'terraform-provider-framework-validators',
+    name: 'Terraform Validators',
     description:
       'Collections of validators for the Terraform Plugin Framework',
     stack: ['Golang', 'Terraform'],
     sourceCode: 'https://github.com/FrangipaneTeam/terraform-plugin-framework-validators',
-    livePreview: 'https://github.frangipane.io/',
+    livePreview: 'https://github.frangipane.io/terraform/validators/getting-started/',
   },
   {
     name: '🚀 More projects',

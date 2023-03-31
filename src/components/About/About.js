@@ -1,4 +1,5 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
+import MenuBookIcon from '@material-ui/icons/MenuBook';
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -32,8 +33,21 @@ const About = () => {
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
+                target="_blank"
+                rel="noreferrer"
               >
                 <GitHubIcon />
+              </a>
+            )}
+            {social.documentation && (
+              <a
+                href={social.documentation}
+                aria-label='documentation'
+                className='link link--icon'
+                target="_blank"
+                rel="noreferrer"
+              >
+                <MenuBookIcon />
               </a>
             )}
           </>
