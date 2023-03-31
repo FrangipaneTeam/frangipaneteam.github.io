@@ -8,13 +8,9 @@ const Header = () => {
   return (
     <header className='header center'>
       <h3>
-        {homepage ? (
-          <a href={homepage} className='link'>
-            {title}
-          </a>
-        ) : (
-          title
-        )}
+        <a href={homepage} className='link logoFrangipane'>
+          <p className='logoFrangipane' alt={title} />
+        </a>
       </h3>
       <Navbar />
     </header>
