@@ -5,9 +5,9 @@ const header = {
 
 const about = {
   name: 'FrangipaneTeam',
-  role: 'Orange Business team',
+  role: 'A team that love Go (and frangipane)',
   description:
-    'Frangipane Team is a french team of Orange Business. We are working on lots of projects based on Go language.',
+    'Frangipane Team is a french team. We are working on lots of projects based on Go language and we love eating frangipane.',
   social: {
     github: 'https://github.com/FrangipaneTeam',
     documentation: 'https://github.frangipane.io/',
