@@ -10,7 +10,7 @@
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary: #ff7900;
+  --clr-primary: #ff00b7;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --logo: url(image/logo-light.png);
 }
@@ -20,7 +20,7 @@
   --clr-bg-alt: #2a2f4c;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
-  --clr-primary: #ff7900;
+  --clr-primary: #ff00b7;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   --logo: url(image/logo-dark.png);

@@ -14,7 +14,7 @@ const about = {
   },
 }
 
-const projects = [
+const contribs = [
   {
     name: 'Terraform CloudAvenue',
     description:
@@ -31,6 +31,9 @@ const projects = [
     sourceCode: 'https://github.com/FrangipaneTeam/provider-flexibleengine',
     livePreview: 'https://marketplace.upbound.io/providers/frangipaneteam/provider-flexibleengine',
   },
+]
+
+const projects = [
   {
     name: 'Terraform SuperSchema',
     description:
@@ -72,4 +75,4 @@ const projects = [
   },
 ]
 
-export { header, about, projects }
+export { header, about, projects, contribs }
