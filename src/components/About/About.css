@@ -18,6 +18,7 @@
 
 .about__desc,
 .about__contact {
+  text-align: center;
   margin-top: 2.4em;
 }
 
