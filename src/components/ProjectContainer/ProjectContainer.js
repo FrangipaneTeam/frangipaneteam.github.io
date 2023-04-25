@@ -28,6 +28,7 @@ const ProjectContainer = ({ project }) => (
           className='link link--icon'
           target="_blank"
           rel="noreferrer"
+          data-umami-event={`${project.name} Github`}
         >
           <GitHubIcon />
         </a>
@@ -40,6 +41,7 @@ const ProjectContainer = ({ project }) => (
           className='link link--icon'
           target="_blank"
           rel="noreferrer"
+          data-umami-event={`${project.name} Documentation`}
         >
           <MenuBookIcon />
         </a>

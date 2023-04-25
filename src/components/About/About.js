@@ -35,6 +35,7 @@ const About = () => {
                 className='link link--icon'
                 target="_blank"
                 rel="noreferrer"
+                data-umami-event='About Github'
               >
                 <GitHubIcon />
               </a>
@@ -46,6 +47,7 @@ const About = () => {
                 className='link link--icon'
                 target="_blank"
                 rel="noreferrer"
+                data-umami-event='About Documentation'
               >
                 <MenuBookIcon />
               </a>
