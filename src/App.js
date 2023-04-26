@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
+import Team from './components/Team/Team'
 import Projects from './components/Projects/Projects'
 import Contribs from './components/Contribs/Contribs'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
@@ -41,6 +42,7 @@ const App = () => {
         <About />
         <Projects />
         <Contribs />
+        <Team />
       </main>
 
       <ScrollToTop />

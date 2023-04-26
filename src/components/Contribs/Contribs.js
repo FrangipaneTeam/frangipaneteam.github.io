@@ -1,5 +1,5 @@
 import uniqid from 'uniqid'
-import { contribs } from '../../portfolio'
+import { contribs } from '../../frangipane'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import '../Projects/Projects.css'
 

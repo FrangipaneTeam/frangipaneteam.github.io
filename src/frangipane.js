@@ -75,4 +75,31 @@ const projects = [
   },
 ]
 
-export { header, about, projects, contribs }
+const team = [
+  {
+    name: 'Rémi Veyne-Marti',
+    picture: 'https://avatars.githubusercontent.com/u/6757944?v=4',
+    linkedin: 'https://www.linkedin.com/in/r%C3%A9mi-veyne-marti-86a24681',
+    github: 'https://github.com/eremid',
+  },
+  {
+    name: 'David Micheneau',
+    picture: 'https://avatars.githubusercontent.com/u/47741512?v=4',
+    linkedin: 'https://www.linkedin.com/in/david-micheneau-9b3b4b84/',
+    github: 'https://github.com/dmicheneau',
+  },
+  {
+    name: 'Mickael Stanislas',
+    picture: 'https://avatars.githubusercontent.com/u/13660462?v=4',
+    linkedin: 'https://www.linkedin.com/in/mickaelstanislas/',
+    github: 'https://github.com/azrod',
+  },
+  {
+    name: 'Gaetan Ars',
+    picture: 'https://avatars.githubusercontent.com/u/29622411?v=4',
+    linkedin: 'https://www.linkedin.com/in/gaetanars/',
+    github: 'https://github.com/gaetanars',
+  }
+]
+
+export { header, about, projects, contribs, team }

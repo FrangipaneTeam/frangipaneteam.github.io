@@ -1,4 +1,4 @@
-import { header } from '../../portfolio'
+import { header } from '../../frangipane'
 import Navbar from '../Navbar/Navbar'
 import './Header.css'
 
