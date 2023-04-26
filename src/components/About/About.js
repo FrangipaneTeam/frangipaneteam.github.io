@@ -1,6 +1,6 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import MenuBookIcon from '@material-ui/icons/MenuBook';
-import { about } from '../../portfolio'
+import { about } from '../../frangipane'
 import './About.css'
 
 const About = () => {
